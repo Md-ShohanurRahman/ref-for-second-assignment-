@@ -1,0 +1,98 @@
+.inter-font-family {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-color: black;
+    color: white;
+}
+
+.container{
+
+    max-width: 1024px;
+    margin: 0 auto ;
+}
+.btn{
+    padding: 8px 25px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.btn.primary{
+    background: #E6533C;
+}
+.btn.secondary{
+
+    background-color: transparent;
+    border: 1px solid white;
+}
+nav .logo{
+
+    font-size: 25px;
+    font-weight:900;
+    color: #E6533C;
+}
+
+nav ul {
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    border: 1px solid #282828;
+    padding: 2px;
+    border-radius: 50px;
+}
+nav ul li {
+
+    padding: 4px 15px ;
+    font-size: 12px;
+}
+
+nav ul li.active{
+    background: #E6533C;
+    border-radius: 50px;
+}
+
+.banner{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+}
+.banner-content{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.banner-content p{
+    font-size: 10px;
+    color:rgb(92, 91, 91) ;
+}
+.button-container{
+    display: flex;
+    gap: 10px;
+}
